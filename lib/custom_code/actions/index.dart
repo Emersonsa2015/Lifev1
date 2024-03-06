@@ -3,7 +3,6 @@ export 'image64_list.dart' show image64List;
 export 'data_conversor.dart' show dataConversor;
 export 'ano_memo.dart' show anoMemo;
 export 'data_obs.dart' show dataObs;
-export 'week_number.dart' show weekNumber;
 export 'year.dart' show year;
 export 'year_g5_detalhe.dart' show yearG5Detalhe;
 export 'year_g5.dart' show yearG5;
