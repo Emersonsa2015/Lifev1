@@ -14,14 +14,6 @@ import '/backend/schema/structs/index.dart';
 import '/backend/sqlite/sqlite_manager.dart';
 import '/auth/firebase_auth/auth_util.dart';
 
-String? converter64PngOld(String? imageBase64) {
-  if (imageBase64 == null) {
-    return null;
-  }
-
-  return 'data:image/png;base64,' + imageBase64;
-}
-
 String? converterBase64PNG(String? imageBase64) {
   // converta imagem base 64 em png
   if (imageBase64 == null) {
