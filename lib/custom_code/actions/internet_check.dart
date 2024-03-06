@@ -11,6 +11,7 @@ import 'package:flutter/material.dart';
 // Begin custom action code
 // DO NOT REMOVE OR MODIFY THE CODE ABOVE!
 
+import 'package:flutter/painting.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 
 Future<bool> internetCheck() async {

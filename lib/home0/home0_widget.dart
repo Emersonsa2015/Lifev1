@@ -460,7 +460,7 @@ class _Home0WidgetState extends State<Home0Widget>
                           padding: const EdgeInsetsDirectional.fromSTEB(
                               12.0, 0.0, 8.0, 0.0),
                           child: Text(
-                            '11:00',
+                            '12:45',
                             style: FlutterFlowTheme.of(context).bodyMedium,
                           ),
                         ),
