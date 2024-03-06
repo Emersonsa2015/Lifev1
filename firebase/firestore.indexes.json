@@ -1,0 +1,86 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Notes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Usuario",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Date",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Notes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Usuario",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Week",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Tree1",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Notes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Usuario",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Notes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Usuario",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Tree1",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Notes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idTree",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Date",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
