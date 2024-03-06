@@ -67,20 +67,6 @@
           "order": "ASCENDING"
         }
       ]
-    },
-    {
-      "collectionGroup": "Notes",
-      "queryScope": "COLLECTION",
-      "fields": [
-        {
-          "fieldPath": "idTree",
-          "order": "ASCENDING"
-        },
-        {
-          "fieldPath": "Date",
-          "order": "ASCENDING"
-        }
-      ]
     }
   ]
 }

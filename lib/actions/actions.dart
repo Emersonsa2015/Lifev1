@@ -99,30 +99,7 @@ Future yearGrupos(BuildContext context) async {
   }
 }
 
-Future treeAlteracao(BuildContext context) async {
-  List<NotesRecord>? notesTree;
-  String? treeAlteracaoOutput;
-
-  notesTree = await queryNotesRecordOnce(
-    queryBuilder: (notesRecord) => notesRecord
-        .where(
-          'Date',
-          isGreaterThanOrEqualTo: FFAppState().DataIni,
-        )
-        .where(
-          'Date',
-          isLessThanOrEqualTo: FFAppState().DataFim,
-        )
-        .where(
-          'idTree',
-          isEqualTo: FFAppState().idtree,
-        )
-        .orderBy('Date'),
-  );
-  treeAlteracaoOutput = await actions.treeAlteracao(
-    notesTree.toList(),
-  );
-}
+Future treeAlteracao(BuildContext context) async {}
 
 Future treeOffline(BuildContext context) async {
   List<TreeRecord>? treeOfflineOutput;

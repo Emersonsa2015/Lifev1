@@ -6,7 +6,6 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import '/life/edit/year_edit/year_edit_widget.dart';
-import '/life/edit/year_edit12/year_edit12_widget.dart';
 import '/actions/actions.dart' as action_blocks;
 import '/custom_code/actions/index.dart' as actions;
 import 'package:cached_network_image/cached_network_image.dart';
@@ -837,72 +836,23 @@ class _YearWidgetState extends State<YearWidget> with TickerProviderStateMixin {
                                                                             0.0,
                                                                             8.0,
                                                                             0.0),
-                                                                child: InkWell(
-                                                                  splashColor:
-                                                                      Colors
-                                                                          .transparent,
-                                                                  focusColor: Colors
-                                                                      .transparent,
-                                                                  hoverColor: Colors
-                                                                      .transparent,
-                                                                  highlightColor:
-                                                                      Colors
-                                                                          .transparent,
-                                                                  onTap:
-                                                                      () async {
-                                                                    await showModalBottomSheet(
-                                                                      isScrollControlled:
-                                                                          true,
-                                                                      backgroundColor:
-                                                                          Colors
-                                                                              .transparent,
-                                                                      barrierColor:
-                                                                          FlutterFlowTheme.of(context)
-                                                                              .accent2,
-                                                                      enableDrag:
-                                                                          false,
-                                                                      context:
-                                                                          context,
-                                                                      builder:
-                                                                          (context) {
-                                                                        return GestureDetector(
-                                                                          onTap: () => _model.unfocusNode.canRequestFocus
-                                                                              ? FocusScope.of(context).requestFocus(_model.unfocusNode)
-                                                                              : FocusScope.of(context).unfocus(),
-                                                                          child:
-                                                                              Padding(
-                                                                            padding:
-                                                                                MediaQuery.viewInsetsOf(context),
-                                                                            child:
-                                                                                SizedBox(
-                                                                              height: MediaQuery.sizeOf(context).height * 0.3,
-                                                                              child: const YearEdit12Widget(),
-                                                                            ),
-                                                                          ),
-                                                                        );
-                                                                      },
-                                                                    ).then((value) =>
-                                                                        safeSetState(
-                                                                            () {}));
-                                                                  },
-                                                                  child: Text(
-                                                                    FFAppState()
-                                                                            .yearDescricaoR[
-                                                                        yearListViewIndex],
-                                                                    style: FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .bodyMedium
-                                                                        .override(
-                                                                          fontFamily:
-                                                                              'Readex Pro',
-                                                                          color:
-                                                                              FlutterFlowTheme.of(context).primaryText,
-                                                                          fontWeight:
-                                                                              FontWeight.w600,
-                                                                          fontStyle:
-                                                                              FontStyle.italic,
-                                                                        ),
-                                                                  ),
+                                                                child: Text(
+                                                                  FFAppState()
+                                                                          .yearDescricaoR[
+                                                                      yearListViewIndex],
+                                                                  style: FlutterFlowTheme.of(
+                                                                          context)
+                                                                      .bodyMedium
+                                                                      .override(
+                                                                        fontFamily:
+                                                                            'Readex Pro',
+                                                                        color: FlutterFlowTheme.of(context)
+                                                                            .primaryText,
+                                                                        fontWeight:
+                                                                            FontWeight.w600,
+                                                                        fontStyle:
+                                                                            FontStyle.italic,
+                                                                      ),
                                                                 ),
                                                               ),
                                                             ),
